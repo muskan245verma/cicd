@@ -16,13 +16,6 @@ class Test_Listgame(unittest.TestCase):
         l1=[1,2,3,4]
         l2=[5,6,7,8,6]
         self.assertEqual(Lgame.equal(l1,l2),'Lists are not of equal length')
-    def test_reverseofother(self):
-        l1=[1,2,3,4]
-        l2=[4,3,2,1]
-        self.assertEqual(Lgame.reverseofother(l1,l2),'Are they reverse of each other : YES')
-        l1=[1,2,3,4]
-        l2=[5,6,7,8]
-        self.assertEqual(Lgame.reverseofother(l1,l2),'Are they reverse of each other : NO')
 
 if __name__ == '__main__':
     unittest.main()
