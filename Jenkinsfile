@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Output'){
             steps{
-                bat 'python testflask.py'
+                bat 'python flask_test.py'
                 echo "Successfully"
             }
         }
